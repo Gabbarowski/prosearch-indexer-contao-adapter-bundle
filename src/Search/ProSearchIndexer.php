@@ -13,6 +13,10 @@ use Contao\CoreBundle\Search\Indexer\IndexerInterface;
  */
 class ProSearchIndexer implements IndexerInterface
 {
+    public function __construct(ContaoFramework $contaoFramework) {
+        $contaoFramework->initialize();
+    }
+    
     public function index(Document $document): void
     {
 
