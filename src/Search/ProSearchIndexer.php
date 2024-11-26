@@ -7,6 +7,7 @@ use Alnv\ProSearchIndexerContaoAdapterBundle\Models\IndicesModel;
 use Contao\CoreBundle\Search\Document;
 use Contao\CoreBundle\Search\Indexer\IndexerException;
 use Contao\CoreBundle\Search\Indexer\IndexerInterface;
+use Contao\CoreBundle\Framework\ContaoFramework;
 
 /**
  * https://docs.contao.org/dev/framework/search-indexing/
